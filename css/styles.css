@@ -1,0 +1,127 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+}
+
+a{
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+  margin: 10px 30px;
+  text-decoration: none;
+
+}
+
+a:hover{
+  text-decoration: underline;
+  color: white;
+}
+p{
+    line-height: 2;
+}
+h1 {
+  color: #66BFBF;
+  font-size: 5.625em;
+  font-family: 'Sacramento', cursive;
+  margin: 0 auto 0 auto;
+}
+
+h2 {
+
+  color: #66BFBF;
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr{
+  border: dotted #77ACF1 4px;
+  border-bottom: none;
+  width: 5%;
+  margin: 50px auto;
+}
+.top-container {
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.bottom-container {
+
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+
+}
+
+.intro{
+  margin: auto;
+  width: 40%;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+
+}
+
+.code-img{
+  width: 20%;
+  float: left;
+  margin-right: 20px;
+}
+
+.code-img2{
+  width: 20%;
+  float: right;
+  margin-left:  20px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 240px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.btn {
+  background: #1d73ad;
+  background-image: -webkit-linear-gradient(top, #1d73ad, #0d3b57);
+  background-image: -moz-linear-gradient(top, #1d73ad, #0d3b57);
+  background-image: -ms-linear-gradient(top, #1d73ad, #0d3b57);
+  background-image: -o-linear-gradient(top, #1d73ad, #0d3b57);
+  background-image: linear-gradient(to bottom, #1d73ad, #0d3b57);
+  -webkit-border-radius: 6;
+  -moz-border-radius: 6;
+  border-radius: 6px;
+font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #59b7f2;
+  background-image: -webkit-linear-gradient(top, #59b7f2, #327099);
+  background-image: -moz-linear-gradient(top, #59b7f2, #327099);
+  background-image: -ms-linear-gradient(top, #59b7f2, #327099);
+  background-image: -o-linear-gradient(top, #59b7f2, #327099);
+  background-image: linear-gradient(to bottom, #59b7f2, #327099);
+  text-decoration: none;
+}
